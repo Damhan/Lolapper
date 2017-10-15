@@ -9,5 +9,7 @@ Wrappers for Champions, Champion Materies & Leagues.
 
 # To come
 -Error checking/handling
+
 -Rest of the api wrappers
+
 -Optimization
