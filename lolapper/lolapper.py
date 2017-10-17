@@ -2,6 +2,7 @@ from apis.BaseApi import BaseApi
 from apis.ChampionMasteryV3Api import ChampionMasteryV3Api
 from apis.ChampionV3Api import ChampionV3Api
 from apis.LeagueV3Api import LeagueV3Api
+from apis.LolStaticDataV3Api import LolStaticDataV3Api
 
 class Lolapper(object):
     
@@ -10,3 +11,4 @@ class Lolapper(object):
         self.champion =  ChampionV3Api(self.baseApi)
         self.championMastery = ChampionMasteryV3Api(self.baseApi)
         self.league = LeagueV3Api(self.baseApi)
+        self.staticData = LolStaticDataV3Api(self.baseApi)

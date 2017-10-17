@@ -1,4 +1,5 @@
 from lolapper import Lolapper
 
-lap = Lolapper("RGAPI-9bc7ab7f-555e-4946-a916-b8cb32c16e2b")
-print(lap.league.positionBySummoner(72948))
+lap = Lolapper("RGAPI-52a6772c-fbd5-488e-ab7d-bbc7a3acfd86")
+print(lap.staticData.summonerSpellsById(20))
+print(lap.staticData.versions())
