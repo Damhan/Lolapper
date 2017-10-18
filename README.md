@@ -12,4 +12,5 @@ Wrappers for Champions, Champion Materies & Leagues.
 
 -Rest of the api wrappers
 
--Optimization
+-Documentation for use
+
