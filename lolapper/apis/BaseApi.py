@@ -4,6 +4,6 @@ class BaseApi(object):
 	def __init__(self,key):
 		self.apiKey = "?api_key=" + key
 
-	def apiRequest(self,url):
+	def apiRequest(self,url):	
 		r = requests.get(self.base_url+url+self.apiKey)
 		return r.content
